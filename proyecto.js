@@ -19,7 +19,7 @@ mostrar_reservas()
 
 function reservar (nombre) {
     var mascota = prompt("Ingrese el nombre de su mascota");
-    // cut = corte de cabello  y shower = banio para mascotas
+    // cut = corte de pelo  y shower = banio para mascotas
     var servicio = prompt("Seleccione servicio: cut (5000 pesos) o shower (2500 pesos)"); 
     // Yes = si No = no
     var adicional= prompt("Deseas incluir el adicional de corte higienico por 500 pesos? Responde 'Yes' o 'No'") 
